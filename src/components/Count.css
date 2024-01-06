@@ -1,8 +1,8 @@
-*
-{
+* {
     box-sizing: border-box;
 }
-body{
+
+body {
     background: #555;
     width: 100%;
     height: 100vh;
@@ -10,8 +10,8 @@ body{
     align-items: center;
     justify-content: center;
 }
-.content
-{
+
+.content {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -23,8 +23,8 @@ body{
     color: white;
     font-weight: 500;
 }
-.qoshish
-{
+
+.qoshish {
     background: transparent;
     border: none;
     margin-top: 100px;
@@ -32,8 +32,8 @@ body{
     font-weight: 500;
     cursor: pointer;
 }
-.qoshish10
-{
+
+.qoshish10 {
     background: transparent;
     border: none;
     margin-top: 100px;
@@ -41,38 +41,46 @@ body{
     color: white;
     opacity: 50%;
 }
-.ayrish0
-{
+
+.ayrish0 {
     background: transparent;
     border: none;
     color: white;
     cursor: no-drop;
     opacity: 50%;
 }
-.ayrish
-{
+
+.ayrish {
     background: transparent;
     border: none;
     color: white;
     font-weight: 500;
     cursor: pointer;
 }
-.noll
-{
+
+.noll {
     background: transparent;
     border: none;
     color: white;
     font-weight: 500;
 }
-.progress
-{
+
+.progress {
     transform: rotate(-90deg);
     width: 100px;
     position: absolute;
     margin-left: -30px;
     margin-top: -50px
 }
-.nol
-{
+
+.nol {
     border-top: 2px solid black;
+}
+
+h1 {
+    color: white;
+    font-size: 50px;
+    position: absolute;
+    top: 0;
+    left: 0;
 }
